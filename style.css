@@ -1,0 +1,15 @@
+.page {
+    display: flex;
+    
+}
+
+.hawaii {
+    width: min(600px, 50vw);
+    height: auto;
+}
+
+.form-area {
+    background-color: lightcyan;
+    /* position: relative; */
+    width: min(600px, 50vw);
+}
