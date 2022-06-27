@@ -4,12 +4,16 @@
 }
 
 .hawaii {
-    width: min(600px, 50vw);
-    height: auto;
+    /* width: min(600px, 50vw); */
+    width: 100vw;
+    height: 100vh;
 }
 
 .form-area {
+    position: absolute;
     background-color: lightcyan;
-    /* position: relative; */
-    width: min(600px, 50vw);
+    left: 37.5vw;
+    width: 62.5vw;
+    /* width: min(600px, 50vw); */
+    height: 100vh;
 }
