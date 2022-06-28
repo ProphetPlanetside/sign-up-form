@@ -3,6 +3,28 @@
     
 }
 
+.logo-section {
+    position: absolute;
+    top: 20vh;
+    height: 200px;
+    width: 37.5vw;
+    background-color: rgba(0, 0, 0, 0.466);
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 18vh;
+}
+
+.logo-text {
+    font-family: norseBold;
+    color: white;
+    font-size: 10vh;
+}
+
 .hawaii {
     /* width: min(600px, 50vw); */
     width: 100vw;
@@ -13,7 +35,12 @@
     position: absolute;
     background-color: lightcyan;
     left: 37.5vw;
-    width: 62.5vw;
-    /* width: min(600px, 50vw); */
+    width: 62.5vw; 
+    /* width: min(600px, 62.5vw); */
     height: 100vh;
 }
+
+@font-face {
+    font-family: norseBold;
+    src: url(Norse-Bold.otf);
+  }
