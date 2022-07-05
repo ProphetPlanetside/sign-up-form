@@ -33,7 +33,7 @@
 
 .form-area {
     position: absolute;
-    background-color: rgba(207, 205, 205, 0.959);
+    background-color: white;
     top: 40vh;
     left: 37.5vw;
     width: 62.5vw; 
@@ -41,12 +41,17 @@
     height: 25vh;
 }
 
+button {
+    
+    margin-top: 12vh;
+}
+
 .header {
     position: absolute;
     left: 37.5vw;
     width: 62.5vw;
     height: 40vh;
-    background-color: black;
+    background-color: rgb(221, 218, 218);
 }
 
 .footer {
@@ -55,7 +60,7 @@
     left: 37.5vw;
     width: 62.5vw;
     height: 35vh;
-    background-color: black;
+    background-color: rgb(221, 218, 218);
 }
 
 /* .form-side {
