@@ -33,12 +33,34 @@
 
 .form-area {
     position: absolute;
-    background-color: lightcyan;
+    background-color: rgba(207, 205, 205, 0.959);
+    top: 40vh;
     left: 37.5vw;
     width: 62.5vw; 
     /* width: min(600px, 62.5vw); */
-    height: 100vh;
+    height: 25vh;
 }
+
+.header {
+    position: absolute;
+    left: 37.5vw;
+    width: 62.5vw;
+    height: 40vh;
+    background-color: black;
+}
+
+.footer {
+    position: absolute;
+    top: 65vh;
+    left: 37.5vw;
+    width: 62.5vw;
+    height: 35vh;
+    background-color: black;
+}
+
+/* .form-side {
+    display: flex;
+} */
 
 @font-face {
     font-family: norseBold;
