@@ -1,13 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .page {
     display: flex;
-    
+    height: 100vh;
+    width: 100vw;
+}
+
+.picture-side {
+    background-image: url(./karsten-winegeart-fd1cQ3mmBTE-unsplash.jpg);
+    width: 40vw;
 }
 
 .logo-section {
-    position: absolute;
-    top: 20vh;
+    margin-top: 20vh;
     height: 200px;
-    width: 37.5vw;
+    width: 40vw;
     background-color: rgba(0, 0, 0, 0.466);
     /* opacity: 0.85; */
     display: flex;
@@ -25,19 +35,12 @@
     font-size: 10vh;
 }
 
-.hawaii {
-    /* width: min(600px, 50vw); */
-    width: 100vw;
-    height: 100vh;
+.form-side {
+    width: 60vw;
 }
 
 .form-area {
-    position: absolute;
     background-color: white;
-    top: 40vh;
-    left: 37.5vw;
-    width: 62.5vw; 
-    /* width: min(600px, 62.5vw); */
     height: 25vh;
 }
 
@@ -46,25 +49,26 @@ button {
 }
 
 .header {
-    position: absolute;
-    left: 37.5vw;
-    width: 62.5vw;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 20vh; */
+    gap: 3vh;
     height: 40vh;
-    background-color: rgb(221, 218, 218);
+    /* height: 200vh; */
+    background-color: rgb(243, 243, 243);
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.text {
+    padding-left: 3vw;
+    padding-right: 17vw;
 }
 
 .footer {
-    position: absolute;
-    top: 65vh;
-    left: 37.5vw;
-    width: 62.5vw;
     height: 35vh;
-    background-color: rgb(221, 218, 218);
+    background-color: rgb(243, 243, 243);
 }
-
-/* .form-side {
-    display: flex;
-} */
 
 @font-face {
     font-family: norseBold;
