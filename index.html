@@ -33,32 +33,33 @@
                 <div class="input-area">
                     <div class="form-left-column">
                         <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="first_name" placeholder="Bob...">
+                        <input type="text" id="firstName" name="first_name" placeholder="Bob..." required>
 
                         <p></p>
 
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="email@example.com...">
+                        <input type="email" id="email" name="email" placeholder="email@example.com..." required>
 
                         <p></p>
 
                         <label for="user_password">Password</label>
-                        <input type="password" id="user_password" name="password">
+                        <input type="password" id="user_password" name="password" required>
                     </div>
     
                     <div class="form-right-column">
                         <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="last_name" placeholder="Odenkirk...">
+                        <input type="text" id="lastName" name="last_name" placeholder="Odenkirk..." required>
     
                         <p></p>
 
                         <label for="phone_number">Phone Number</label>
-                        <input type="tel" id="phone_number" name="phone_number" placeholder="1234567890...">
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="1234567890..."
+                        required minlength="9" maxlength="9">
     
                         <p></p>
 
                         <label for="user_password">Confirm Password</label>
-                        <input type="password" id="user_password" name="password">
+                        <input type="password" id="user_password" name="password" required>
                     </div>
                 </div>  
             </div>
