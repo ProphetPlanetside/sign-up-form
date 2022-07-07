@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
 .page {
     display: flex;
     height: 100vh;
@@ -22,7 +27,6 @@ html, body {
     height: 200px;
     width: 40vw;
     background-color: rgba(0, 0, 0, 0.466);
-    /* opacity: 0.85; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,19 +49,43 @@ html, body {
 .form-area {
     background-color: white;
     height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+.form-header {
+    padding-left: 25px;
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.form-left-column, .form-right-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
 }
 
 button {
     
 }
 
+input {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
-    /* padding-top: 20vh; */
     gap: 3vh;
     height: 25vh;
-    /* height: 200vh; */
     background-color: rgb(243, 243, 243);
     font-size:larger;
     font-weight: bolder;
